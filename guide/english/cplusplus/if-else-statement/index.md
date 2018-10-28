@@ -9,6 +9,11 @@ title: If-Else Statement
 * But many times, we want to execute certain steps if the value of test expression is false.
 * In such cases, we use the if-else statement.
 
+### Flowchart of If-Else Statement 
+link:
+
+https://www.w3schools.in/wp-content/uploads/2014/07/c-if-else.png
+
 ### General Form of If-Else Statement
 
 ```cpp
@@ -190,3 +195,4 @@ Number 2 is greater.
 **Happy Coding ! :)**
 
  **Feel free to ask any queries on freeCodeCamp.org's GitHub page or [the freeCodeCamp.org Forum](https://forum.freecodecamp.org/)**.
+ 
