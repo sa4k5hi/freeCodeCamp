@@ -122,3 +122,9 @@ If the speed of the program is important then you may not want to use recursion 
 * `return` ends the function and gives back a value. You can have several in one function, but as soon as you hit one the function ends there.
 * When you pass a variable to a function, it has its own copy to use - changing something in a function doesn't change it outside the function.
 * Variables declared inside a function are only visible inside that function, unless they are declared static.
+
+Some useful links for basic information are as follows:
+
+https://www.tutorialspoint.com/cprogramming/c_functions.htm
+https://www.programiz.com/c-programming/c-functions
+https://www.geeksforgeeks.org/recursion/
