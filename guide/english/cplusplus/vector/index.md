@@ -233,3 +233,31 @@ int main(){
 ```
 
 You can also sort in descending using lamda like the one above.
+
+### Data types in Vectors
+We have various datatypes like int, long int, unsigned int, float, double, char, string etc. Elements in the vector should be of same data type. even vector<data_type> where data_type is int, string, float etc can be used as data type for storing elements in vector.
+
+Refer the following example:
+```cpp
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main() {
+int x=0;
+int y=0;
+
+cin>>x>>y;
+
+vector<vector<int> v(x,vector<int> (y));    //declaring a vector of data type vector<int>
+
+for(int i=0;i<v.size();i++) {
+        for(int j=0;j<v[i].size();j++) {
+                     v[i][j]=2*i + j;       //assigning values
+                     }
+        }
+        
+        return 0;
+ }
+ ```
